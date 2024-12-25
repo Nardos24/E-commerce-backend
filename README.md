@@ -42,6 +42,8 @@ uvicorn app:app --reload
 Visit `/docs` in your browser after running the application to access automatically generated API documentation. This documentation provides an interactive interface for testing the API endpoints.
 **sagger UI (Interactive Docs):**
 http://127.0.0.1:8000/docs
+
+
 This interface allows you to explore all available endpoints, try out API requests, and view their responses directly.
 ## API Endpoints
 
