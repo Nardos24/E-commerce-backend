@@ -1,30 +1,27 @@
-# FastAPI CRUD API with CSV Storage
+# FastAPI User and Product Management API
 
-This project provides a simple FastAPI CRUD (Create, Read, Update, Delete) API to manage users and products, using CSV files for storage.
+This FastAPI application provides a simple RESTful API for managing users and products. It supports CRUD operations and uses CSV files for data storage.
 
 ## Features
 
-- **User and Product Management**: 
-  - Add, update, delete, and retrieve users and products.
-- **CSV Storage**: 
-  - Data is stored in `users.csv` and `products.csv`.
-- **Caching**: 
-  - Results are cached using `lru_cache` to optimize read operations.
-- **CORS Support**: 
-  - Cross-Origin Resource Sharing (CORS) is enabled for all domains.
-- **Cache-Control Header**: 
-  - Responses are cached for 60 seconds.
+- **User Management**: Create, read, update, and delete users.
+- **Product Management**: Create, read, update, and delete products.
+- **CSV Storage**: Data is stored in CSV files for easy access and manipulation.
+- **CORS Support**: Cross-Origin Resource Sharing (CORS) is enabled to allow requests from any origin.
+- **Caching**: Uses caching to improve performance for frequent reads.
+
+## Requirements
+
+- Python 3.7 or higher
+- FastAPI
+- Uvicorn (for serving the application)
 
 ## Installation
 
-## Running the Application
-uvicorn main:app --reload
-### Prerequisites
-
-- Python 3.7+  
-- Install dependencies:
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Nardos24/E-commerce-backend.git
+   cd E-commerce-backend
+## running the application
 ```bash
-pip install fastapi uvicorn pydantic
-
-
+uvicorn main:app --reload
