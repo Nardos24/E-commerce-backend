@@ -125,7 +125,7 @@ Visit `/docs` in your browser after running the application to access automatica
     ```json
     {
       "name": "ayele"
-      "email": "ye345le@gmail.com
+      "email":"aye345le@gmail.com
     }
     ```
   - **Response**:
