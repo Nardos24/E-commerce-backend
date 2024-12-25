@@ -26,4 +26,4 @@ This FastAPI application provides a simple RESTful API for managing users and pr
 
 ## running the application
 ```bash
-uvicorn main:app --reload
+uvicorn app:app --reload
