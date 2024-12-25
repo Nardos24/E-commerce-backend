@@ -22,6 +22,8 @@ This FastAPI application provides a simple RESTful API for managing users and pr
    ```bash
    git clone https://github.com/Nardos24/E-commerce-backend.git
    cd E-commerce-backend
+   pip install fastapi uvicorn pydantic
+
 ## running the application
 ```bash
 uvicorn main:app --reload
