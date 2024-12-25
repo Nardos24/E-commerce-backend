@@ -24,3 +24,6 @@ This project provides a simple FastAPI CRUD (Create, Read, Update, Delete) API t
 
 ```bash
 pip install fastapi uvicorn pydantic
+
+##Running the Application
+uvicorn main:app --reload
