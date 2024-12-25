@@ -17,6 +17,8 @@ This project provides a simple FastAPI CRUD (Create, Read, Update, Delete) API t
 
 ## Installation
 
+## Running the Application
+uvicorn main:app --reload
 ### Prerequisites
 
 - Python 3.7+  
@@ -25,5 +27,4 @@ This project provides a simple FastAPI CRUD (Create, Read, Update, Delete) API t
 ```bash
 pip install fastapi uvicorn pydantic
 
-##Running the Application
-uvicorn main:app --reload
+
