@@ -150,7 +150,7 @@ Visit `/docs` in your browser after running the application to access automatica
     {
       "id": 2,
       "name": "ayele kebede"
-      "email": "aye123@gmail.com
+      "email": "aye123@gmail.com"
     }
     ```
   - **Error Response** (if user not found):
