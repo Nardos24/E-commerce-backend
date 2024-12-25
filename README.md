@@ -295,12 +295,12 @@ You can test the API using tools like [Postman] or [cURL].
 
 3. **Add User**
    ```bash
-   curl -X POST http://localhost:8000/users -H "Content-Type: application/json" -d '{"id": 2, "name": "Jane Doe", "email": "jane@example.com"}'
+   curl -X POST http://localhost:8000/users -H "Content-Type: application/json" -d '{"id": 2, "name": "ayele" email: "aye345le@gmail.com"
    ```
 
 4. **Update User**
    ```bash
-   curl -X PUT http://localhost:8000/users/2 -H "Content-Type: application/json" -d '{"name": "Jane Smith", "email": "jane.smith@example.com"}'
+   curl -X PUT http://localhost:8000/users/2 -H "Content-Type: application/json" -d '{"name": "ayele kebede" "aye123@gmail.com"
    ```
 
 5. **Delete User**
