@@ -1,4 +1,4 @@
-# FastAPI User and Product Management API
+# FastAPI User and Product Management API for E-Commerece
 
 This FastAPI application provides a simple RESTful API for managing users and products. It supports CRUD operations and uses CSV files for data storage.
 
