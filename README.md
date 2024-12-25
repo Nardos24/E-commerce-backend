@@ -124,16 +124,16 @@ Visit `/docs` in your browser after running the application to access automatica
   - **Request Body**:
     ```json
     {
-      "name": "Jane Smith",
-      "email": "jane.smith@example.com"
+      "name": "ayele"
+      "email": "ye345le@gmail.com
     }
     ```
   - **Response**:
     ```json
     {
       "id": 2,
-      "name": "Jane Smith",
-      "email": "jane.smith@example.com"
+      "name": "ayele kebede"
+      "email": "aye123@gmail.com"
     }
     ```
   - **Error Response** (if user not found):
@@ -149,8 +149,8 @@ Visit `/docs` in your browser after running the application to access automatica
     ```json
     {
       "id": 2,
-      "name": "Jane Smith",
-      "email": "jane.smith@example.com"
+      "name": "ayele kebede"
+      "email": "aye123@gmail.com
     }
     ```
   - **Error Response** (if user not found):
