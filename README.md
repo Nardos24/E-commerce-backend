@@ -46,7 +46,7 @@ Visit `/docs` in your browser after running the application to access automatica
 ### Users
 
 - **List Users**
-  - **URL**: `GET /users`
+  - **URL**: http://127.0.0.1:8000/users
   - **Response**:
     ```json
     [
@@ -85,7 +85,7 @@ Visit `/docs` in your browser after running the application to access automatica
 
 - **Get User by ID**
   - **URL**: `GET /users/{user_id}`
-  - **Response** (for example, if `user_id` is `1`):
+  - **Response** (for example, if `user_id` is `1, http://127.0.0.1:8000/user/1):
     ```json
     {
       "id": 1,
@@ -106,16 +106,16 @@ Visit `/docs` in your browser after running the application to access automatica
     ```json
     {
       "id": 2,
-      "name": "Jane Doe",
-      "email": "jane@example.com"
+      "name": "ayele"
+      "email": "aye345le@gmail.com
     }
     ```
   - **Response**:
     ```json
     {
       "id": 2,
-      "name": "Jane Doe",
-      "email": "jane@example.com"
+      "name": "ayele"
+      "email": "aye345le@gmail.com"
     }
     ```
 
